@@ -1,0 +1,12 @@
+deca_usb.c:67:10:DW_VCP_Init	4	static
+deca_usb.c:68:10:DW_VCP_DeInit	4	static
+deca_usb.c:69:10:VCP_COMConfig	16	static
+deca_usb.c:79:10:DW_VCP_Ctrl	24	static
+deca_usb.c:94:10:DW_VCP_DataTx	12	static
+deca_usb.c:135:10:DW_VCP_DataRx	16	static
+deca_usb.c:201:6:configSPIspeed	0	static
+deca_usb.c:214:5:process_usbmessage	32	static
+deca_usb.c:437:6:send_usbmessage	16	static
+deca_usb.c:457:6:usb_printconfig	12	static
+deca_usb.c:467:5:usb_init	16	static
+deca_usb.c:495:6:usb_run	8	static

@@ -1,0 +1,5 @@
+usbd_cdc_if_template.c:72:17:TEMPLATE_Init	4	static
+usbd_cdc_if_template.c:86:17:TEMPLATE_DeInit	4	static
+usbd_cdc_if_template.c:103:17:TEMPLATE_Ctrl	24	static
+usbd_cdc_if_template.c:158:17:TEMPLATE_DataTx	24	static
+usbd_cdc_if_template.c:194:17:TEMPLATE_DataRx	24	static

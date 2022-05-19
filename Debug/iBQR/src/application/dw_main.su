@@ -1,0 +1,5 @@
+dw_main.c:46:8:inittestapplication	32	static
+dw_main.c:102:6:initLCD	32	static
+dw_main.c:117:6:setLCDline1	24	static
+dw_main.c:133:6:configure_continuous_txspectrum_mode	32	static
+dw_main.c:169:5:dw_main	280	static

@@ -1,0 +1,503 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+
+ Changes to be committed:
+	new file:   .cproject
+	new file:   .mxproject
+	new file:   .project
+	new file:   .settings/language.settings.xml
+	new file:   .settings/stm32cubeide.project.prefs
+	new file:   Core/Inc/main.h
+	new file:   Core/Inc/stm32f1xx_hal_conf.h
+	new file:   Core/Inc/stm32f1xx_it.h
+	new file:   Core/Src/main.c
+	new file:   Core/Src/stm32f1xx_hal_msp.c
+	new file:   Core/Src/stm32f1xx_it.c
+	new file:   Core/Src/system_stm32f1xx.c
+	new file:   Debug/Core/Src/main.su
+	new file:   Debug/Core/Src/subdir.mk
+	new file:   Debug/Core/Startup/subdir.mk
+	new file:   Debug/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.su
+	new file:   Debug/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.su
+	new file:   Debug/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.su
+	new file:   Debug/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.su
+	new file:   Debug/Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk
+	new file:   Debug/EVK1000_CubeMX.bin
+	new file:   Debug/EVK1000_CubeMX.elf
+	new file:   Debug/EVK1000_CubeMX.list
+	new file:   Debug/EVK1000_CubeMX.map
+	new file:   Debug/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/subdir.mk
+	new file:   Debug/Middlewares/ST/STM32_USB_Device_Library/Core/Src/subdir.mk
+	new file:   Debug/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.su
+	new file:   Debug/USB_DEVICE/App/subdir.mk
+	new file:   Debug/USB_DEVICE/App/usb_device.su
+	new file:   Debug/USB_DEVICE/App/usbd_cdc_if.su
+	new file:   Debug/USB_DEVICE/App/usbd_desc.su
+	new file:   Debug/iBQR/Libraries/CMSIS/CM3/CoreSupport/core_cm3.d
+	new file:   Debug/iBQR/Libraries/CMSIS/CM3/CoreSupport/core_cm3.o
+	new file:   Debug/iBQR/Libraries/CMSIS/CM3/CoreSupport/core_cm3.su
+	new file:   Debug/iBQR/Libraries/CMSIS/CM3/CoreSupport/subdir.mk
+	new file:   Debug/iBQR/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/startup_stm32f10x_cl.d
+	new file:   Debug/iBQR/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/startup_stm32f10x_cl.o
+	new file:   Debug/iBQR/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/subdir.mk
+	new file:   Debug/iBQR/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/subdir.mk
+	new file:   Debug/iBQR/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.d
+	new file:   Debug/iBQR/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.o
+	new file:   Debug/iBQR/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/misc.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/misc.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/misc.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.d
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.o
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.su
+	new file:   Debug/iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/subdir.mk
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Class/cdc/src/subdir.mk
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_core.d
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_core.o
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_core.su
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_if_template.d
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_if_template.o
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_if_template.su
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Core/src/subdir.mk
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Core/src/usbd_core.d
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Core/src/usbd_core.o
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Core/src/usbd_core.su
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Core/src/usbd_ioreq.d
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Core/src/usbd_ioreq.o
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Core/src/usbd_ioreq.su
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Core/src/usbd_req.d
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Core/src/usbd_req.o
+	new file:   Debug/iBQR/Libraries/STM32_USB_Device_Library/Core/src/usbd_req.su
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/subdir.mk
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_core.d
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_core.o
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_core.su
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_dcd.d
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_dcd.o
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_dcd.su
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_dcd_int.d
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_dcd_int.o
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_dcd_int.su
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_hcd.d
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_hcd.o
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_hcd.su
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_hcd_int.d
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_hcd_int.o
+	new file:   Debug/iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_hcd_int.su
+	new file:   Debug/iBQR/application/dw_main.su
+	new file:   Debug/iBQR/application/subdir.mk
+	new file:   Debug/iBQR/decadriver/deca_device.su
+	new file:   Debug/iBQR/decadriver/deca_params_init.d
+	new file:   Debug/iBQR/decadriver/deca_params_init.su
+	new file:   Debug/iBQR/decadriver/subdir.mk
+	new file:   Debug/iBQR/main.d
+	new file:   Debug/iBQR/main.o
+	new file:   Debug/iBQR/main.su
+	new file:   Debug/iBQR/platform/deca_mutex.su
+	new file:   Debug/iBQR/platform/deca_range_tables.d
+	new file:   Debug/iBQR/platform/deca_range_tables.su
+	new file:   Debug/iBQR/platform/deca_sleep.su
+	new file:   Debug/iBQR/platform/deca_spi.su
+	new file:   Debug/iBQR/platform/port.su
+	new file:   Debug/iBQR/platform/stm32f10x_it.su
+	new file:   Debug/iBQR/platform/subdir.mk
+	new file:   Debug/iBQR/src/application/dw_main.d
+	new file:   Debug/iBQR/src/application/dw_main.o
+	new file:   Debug/iBQR/src/application/dw_main.su
+	new file:   Debug/iBQR/src/application/instance.d
+	new file:   Debug/iBQR/src/application/instance.o
+	new file:   Debug/iBQR/src/application/instance.su
+	new file:   Debug/iBQR/src/application/instance_calib.d
+	new file:   Debug/iBQR/src/application/instance_calib.o
+	new file:   Debug/iBQR/src/application/instance_calib.su
+	new file:   Debug/iBQR/src/application/instance_common.d
+	new file:   Debug/iBQR/src/application/instance_common.o
+	new file:   Debug/iBQR/src/application/instance_common.su
+	new file:   Debug/iBQR/src/application/subdir.mk
+	new file:   Debug/iBQR/src/application/tdma_handler.d
+	new file:   Debug/iBQR/src/application/tdma_handler.o
+	new file:   Debug/iBQR/src/application/tdma_handler.su
+	new file:   Debug/iBQR/src/decadriver/deca_device.d
+	new file:   Debug/iBQR/src/decadriver/deca_device.o
+	new file:   Debug/iBQR/src/decadriver/deca_device.su
+	new file:   Debug/iBQR/src/decadriver/deca_params_init.d
+	new file:   Debug/iBQR/src/decadriver/deca_params_init.o
+	new file:   Debug/iBQR/src/decadriver/deca_params_init.su
+	new file:   Debug/iBQR/src/decadriver/subdir.mk
+	new file:   Debug/iBQR/src/platform/deca_mutex.d
+	new file:   Debug/iBQR/src/platform/deca_mutex.o
+	new file:   Debug/iBQR/src/platform/deca_mutex.su
+	new file:   Debug/iBQR/src/platform/deca_range_tables.d
+	new file:   Debug/iBQR/src/platform/deca_range_tables.o
+	new file:   Debug/iBQR/src/platform/deca_range_tables.su
+	new file:   Debug/iBQR/src/platform/deca_sleep.d
+	new file:   Debug/iBQR/src/platform/deca_sleep.o
+	new file:   Debug/iBQR/src/platform/deca_sleep.su
+	new file:   Debug/iBQR/src/platform/deca_spi.d
+	new file:   Debug/iBQR/src/platform/deca_spi.o
+	new file:   Debug/iBQR/src/platform/deca_spi.su
+	new file:   Debug/iBQR/src/platform/port.d
+	new file:   Debug/iBQR/src/platform/port.o
+	new file:   Debug/iBQR/src/platform/port.su
+	new file:   Debug/iBQR/src/platform/stm32f10x_it.d
+	new file:   Debug/iBQR/src/platform/stm32f10x_it.o
+	new file:   Debug/iBQR/src/platform/stm32f10x_it.su
+	new file:   Debug/iBQR/src/platform/subdir.mk
+	new file:   Debug/iBQR/src/usb/deca_usb.d
+	new file:   Debug/iBQR/src/usb/deca_usb.o
+	new file:   Debug/iBQR/src/usb/deca_usb.su
+	new file:   Debug/iBQR/src/usb/deca_usb_bsp_evk1000.d
+	new file:   Debug/iBQR/src/usb/deca_usb_bsp_evk1000.o
+	new file:   Debug/iBQR/src/usb/deca_usb_bsp_evk1000.su
+	new file:   Debug/iBQR/src/usb/subdir.mk
+	new file:   Debug/iBQR/src/usb/usbd_desc.d
+	new file:   Debug/iBQR/src/usb/usbd_desc.o
+	new file:   Debug/iBQR/src/usb/usbd_desc.su
+	new file:   Debug/iBQR/src/usb/usbd_usr.d
+	new file:   Debug/iBQR/src/usb/usbd_usr.o
+	new file:   Debug/iBQR/src/usb/usbd_usr.su
+	new file:   Debug/iBQR/subdir.mk
+	new file:   Debug/makefile
+	new file:   Debug/objects.list
+	new file:   Debug/objects.mk
+	new file:   Debug/sources.mk
+	new file:   Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f105xc.h
+	new file:   Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+	new file:   Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+	new file:   Drivers/CMSIS/Device/ST/STM32F1xx/License.md
+	new file:   Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c
+	new file:   Drivers/CMSIS/Include/cmsis_armcc.h
+	new file:   Drivers/CMSIS/Include/cmsis_armclang.h
+	new file:   Drivers/CMSIS/Include/cmsis_compiler.h
+	new file:   Drivers/CMSIS/Include/cmsis_gcc.h
+	new file:   Drivers/CMSIS/Include/cmsis_iccarm.h
+	new file:   Drivers/CMSIS/Include/cmsis_version.h
+	new file:   Drivers/CMSIS/Include/core_armv8mbl.h
+	new file:   Drivers/CMSIS/Include/core_armv8mml.h
+	new file:   Drivers/CMSIS/Include/core_cm0.h
+	new file:   Drivers/CMSIS/Include/core_cm0plus.h
+	new file:   Drivers/CMSIS/Include/core_cm1.h
+	new file:   Drivers/CMSIS/Include/core_cm23.h
+	new file:   Drivers/CMSIS/Include/core_cm3.h
+	new file:   Drivers/CMSIS/Include/core_cm33.h
+	new file:   Drivers/CMSIS/Include/core_cm4.h
+	new file:   Drivers/CMSIS/Include/core_cm7.h
+	new file:   Drivers/CMSIS/Include/core_sc000.h
+	new file:   Drivers/CMSIS/Include/core_sc300.h
+	new file:   Drivers/CMSIS/Include/mpu_armv7.h
+	new file:   Drivers/CMSIS/Include/mpu_armv8.h
+	new file:   Drivers/CMSIS/Include/tz_context.h
+	new file:   Drivers/CMSIS/LICENSE.txt
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
+	new file:   Drivers/STM32F1xx_HAL_Driver/License.md
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+	new file:   Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
+	new file:   EVK1000_CubeMX.ioc
+	new file:   Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h
+	new file:   Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
+	new file:   Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
+	new file:   Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+	new file:   Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
+	new file:   Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
+	new file:   Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
+	new file:   Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
+	new file:   Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
+	new file:   STM32F105RCTX_FLASH.ld
+	new file:   USB_DEVICE/App/usb_device.c
+	new file:   USB_DEVICE/App/usb_device.h
+	new file:   USB_DEVICE/App/usbd_cdc_if.c
+	new file:   USB_DEVICE/App/usbd_cdc_if.h
+	new file:   USB_DEVICE/App/usbd_desc.c
+	new file:   USB_DEVICE/App/usbd_desc.h
+	new file:   iBQR/Libraries/CMSIS/CM3/CoreSupport/core_cm3.c
+	new file:   iBQR/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h
+	new file:   iBQR/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/startup_stm32f10x_cl.S
+	new file:   iBQR/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h
+	new file:   iBQR/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c
+	new file:   iBQR/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_adc.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_bkp.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_can.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_cec.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_crc.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dac.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dbgmcu.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dma.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_flash.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_fsmc.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_i2c.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_iwdg.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rtc.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_sdio.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_usart.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_wwdg.h
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c
+	new file:   iBQR/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.c
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Class/cdc/inc/usbd_cdc_core.h
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Class/cdc/inc/usbd_cdc_if_template.h
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_core.c
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Class/cdc/src/usbd_cdc_if_template.c
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Core/inc/usbd_conf.h_example
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Core/inc/usbd_conf_template.h
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Core/inc/usbd_conf_template.h.bak
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Core/inc/usbd_conf_template_1.h
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Core/inc/usbd_core.h
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Core/inc/usbd_def.h
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Core/inc/usbd_ioreq.h
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Core/inc/usbd_req.h
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Core/inc/usbd_usr.h
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Core/src/usbd_core.c
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Core/src/usbd_ioreq.c
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Core/src/usbd_req.c
+	new file:   iBQR/Libraries/STM32_USB_Device_Library/Release_Notes.html
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/inc/usb_bsp.h
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/inc/usb_core.h
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/inc/usb_dcd.h
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/inc/usb_dcd_int.h
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/inc/usb_defines.h
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/inc/usb_hcd.h
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/inc/usb_hcd_int.h
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/inc/usb_regs.h
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_core.c
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_dcd.c
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_dcd_int.c
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_hcd.c
+	new file:   iBQR/Libraries/STM32_USB_OTG_Driver/src/usb_hcd_int.c
+	new file:   iBQR/Linkers/stm32_flash_256k_ram_64k.ld
+	new file:   iBQR/main.c
+	new file:   iBQR/src/application/application_definitions.h
+	new file:   iBQR/src/application/dw_main.c
+	new file:   iBQR/src/application/instance.c
+	new file:   iBQR/src/application/instance.h
+	new file:   iBQR/src/application/instance_calib.c
+	new file:   iBQR/src/application/instance_common.c
+	new file:   iBQR/src/application/lib.h
+	new file:   iBQR/src/application/tdma_handler.c
+	new file:   iBQR/src/application/tdma_handler.h
+	new file:   iBQR/src/compiler/compiler.h
+	new file:   iBQR/src/decadriver/deca_device.c
+	new file:   iBQR/src/decadriver/deca_device_api.h
+	new file:   iBQR/src/decadriver/deca_param_types.h
+	new file:   iBQR/src/decadriver/deca_params_init.c
+	new file:   iBQR/src/decadriver/deca_regs.h
+	new file:   iBQR/src/decadriver/deca_types.h
+	new file:   iBQR/src/decadriver/deca_version.h
+	new file:   iBQR/src/platform/deca_mutex.c
+	new file:   iBQR/src/platform/deca_range_tables.c
+	new file:   iBQR/src/platform/deca_sleep.c
+	new file:   iBQR/src/platform/deca_spi.c
+	new file:   iBQR/src/platform/deca_spi.h
+	new file:   iBQR/src/platform/port.c
+	new file:   iBQR/src/platform/port.h
+	new file:   iBQR/src/platform/sleep.h
+	new file:   iBQR/src/platform/stm32f10x_conf.h
+	new file:   iBQR/src/platform/stm32f10x_it.c
+	new file:   iBQR/src/platform/stm32f10x_it.h
+	new file:   iBQR/src/usb/deca_usb.c
+	new file:   iBQR/src/usb/deca_usb.h
+	new file:   iBQR/src/usb/deca_usb_bsp_evk1000.c
+	new file:   iBQR/src/usb/usb_conf.h
+	new file:   iBQR/src/usb/usbd_conf.h
+	new file:   iBQR/src/usb/usbd_desc.c
+	new file:   iBQR/src/usb/usbd_desc.h
+	new file:   iBQR/src/usb/usbd_usr.c
+	new file:   mx.scratch
+
+# Untracked files:
+#	../../.AndroidStudio3.5/
+#	../../.HLVirtualBox/
+#	../../.android/
+#	../../.astropy/
+#	../../.bash_history
+#	../../.conda/
+#	../../.condarc
+#	../../.config/
+#	../../.dotnet/
+#	../../.emulator_console_auth_token
+#	../../.gitconfig
+#	../../.gradle/
+#	../../.idlerc/
+#	../../.ipython/
+#	../../.jupyter/
+#	../../.matplotlib/
+#	../../.ssh/
+#	../../.stm32cubemx/
+#	../../.stmcube/
+#	../../.stmcufinder/
+#	../../3D Objects/
+#	../../AppData/
+#	../../Contacts/
+#	../UWB/
+#	../apex/
+#	../app/
+#	../desktop.ini
+#	../game/
+#	../position/
+#	../slide/
+#	../source_uwb/
+#	../wifi-fingerprint/
+#	../wifi/
+#	"../\345\217\221\350\241\250/"
+#	"../\345\255\246\350\264\271/"
+#	"../\346\225\260\346\215\256uwb/"
+#	"../\346\226\260\345\273\272\346\226\207\344\273\266\345\244\271 (2)/"
+#	"../\346\226\260\345\273\272\346\226\207\344\273\266\345\244\271/"
+#	"../\346\226\271\344\275\215/"
+#	"../\346\257\225\344\270\232\350\256\272\346\226\207/"
+#	"../\347\240\224\347\251\266\350\263\207\346\226\231\346\235\220\346\226\231/"
+#	"../\350\265\204\346\226\231/"
+#	"../\351\227\253\345\256\201\346\230\225/"
+#	"../\351\231\242\347\224\237/"
+#	../../Documents/
+#	../../Downloads/
+#	../../Favorites/
+#	../../IntelGraphicsProfiles/
+#	../../Links/
+#	../../MicrosoftEdgeBackups/
+#	../../Music/
+#	../../NTUSER.DAT
+#	../../NTUSER.DAT{853a80b2-e71a-11eb-8807-b74eeb9e717a}.TM.blf
+#	../../NTUSER.DAT{853a80b2-e71a-11eb-8807-b74eeb9e717a}.TMContainer00000000000000000001.regtrans-ms
+#	../../NTUSER.DAT{853a80b2-e71a-11eb-8807-b74eeb9e717a}.TMContainer00000000000000000002.regtrans-ms
+#	../../OneDrive/
+#	../../Pictures/
+#	../../STM32Cube/
+#	../../Saved Games/
+#	../../Searches/
+#	../../Ubisoft Game Launcher/
+#	../../Videos/
+#	"../../https\357\200\272github.com/"
+#	../../ntuser.dat.LOG1
+#	../../ntuser.dat.LOG2
+#	../../ntuser.ini
+#	../../source/
+#

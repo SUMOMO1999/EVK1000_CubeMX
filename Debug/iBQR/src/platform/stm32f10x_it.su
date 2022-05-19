@@ -1,0 +1,17 @@
+stm32f10x_it.c:63:6:NMI_Handler	4	static
+stm32f10x_it.c:72:6:pop_registers_from_fault_stack	48	static
+stm32f10x_it.c:103:6:HardFault_Handler	4	static,ignoring_inline_asm
+stm32f10x_it.c:131:6:MemManage_Handler	4	static
+stm32f10x_it.c:144:6:BusFault_Handler	4	static
+stm32f10x_it.c:157:6:UsageFault_Handler	4	static
+stm32f10x_it.c:170:6:SVC_Handler	4	static
+stm32f10x_it.c:179:6:DebugMon_Handler	4	static
+stm32f10x_it.c:188:6:PendSV_Handler	4	static
+stm32f10x_it.c:197:6:RTC_IRQHandler	8	static
+stm32f10x_it.c:214:6:SysTick_Handler	4	static
+stm32f10x_it.c:222:6:EXTI15_10_IRQHandler	8	static
+stm32f10x_it.c:250:6:EXTI0_IRQHandler	8	static
+stm32f10x_it.c:257:6:EXTI3_IRQHandler	8	static
+stm32f10x_it.c:264:6:EXTI9_5_IRQHandler	8	static
+stm32f10x_it.c:275:6:OTG_FS_WKUP_IRQHandler	8	static
+stm32f10x_it.c:313:6:OTG_FS_IRQHandler	8	static

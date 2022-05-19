@@ -1,0 +1,5 @@
+deca_spi.c:25:5:openspi	4	static
+deca_spi.c:39:5:closespi	8	static
+deca_spi.c:57:5:writetospi	24	static
+deca_spi.c:125:5:readfromspi	24	static
+deca_spi.c:188:6:writetoLCD	24	static
